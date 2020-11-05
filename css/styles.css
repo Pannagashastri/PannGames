@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat';
+  background-color: #00f2ca;
+  background-image: url('https://www.transparenttextures.com/patterns/asfalt-dark.png');
+}
+#title {
+  background-image: url("../images/macbook.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: aqua;
+  height: 100vh;
+  text-align: center;
+}
+h1 {
+  font-family: 'Montserrat Alternates-Black', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.container-fluid {
+  padding: 3% 15%;
+}
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat-light';
+}
+.btn {
+  margin: 5% 3% 5% 0;
+}
+.title-image {
+  width: 60%;
+}
+#features {
+  padding: 8% 8%;
+}
+.features-box {
+  text-align: center;
+  padding: 6%;
+}
+h3 {
+  font-size: 2rem;
+  font-family: cursive;
+}
+p {
+  color: rgb(141, 120, 120);
+}
+.icon {
+  color: #050b19;
+  margin-bottom: 6%;
+}
+.icon:hover {
+  color: #0f2130;
+}
+@media screen and (max-width: 992px) {
+  #title {
+    height: 130vh;
+  }
+}
+@media screen and (max-width: 992px) {
+  #testimonials {
+    height: 100vh;
+  }
+}
+#testimonials {
+  padding: 4% 15%;
+  text-align: center;
+  padding-top: 5%;
+  position: relative;
+}
+h2 {
+  font-family: Montserrat;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  margin-top: 7%;
+  color: #273747;
+}
+.testimonial-press {
+  position: absolute;
+  bottom: 1%;
+  text-align: center;
+  left: 5%;
+  right: 5%;
+  padding-bottom: 1%;
+}
+.press-logo {
+  width: 20%;
+  margin: 20px;
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+  line-height: 1;
+  width: 100%;
+}
+.color {
+  color: blanchedalmond;
+}
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+.card {
+  background-color: #00f2ca;
+  background-image: url('https://www.transparenttextures.com/patterns/asfalt-dark.png');
+  border: transparent;
+}
+.pricing {
+  padding: 3% 2%;
+}
+#cta {
+  padding: 15% 10%;
+  text-align: center;
+  background-color: #212529;
+  color: aquamarine;
+}
+.cta-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+#footer {
+  padding: 10% 15%;
+  text-align: center;
+}
+.footer-paragraph {
+  color: #0f2130;
+  font-size: 1.5rem;
+}
+.footer-icon {
+  margin: 2% 1%;
+}
