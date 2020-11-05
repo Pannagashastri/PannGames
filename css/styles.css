@@ -64,7 +64,7 @@ p {
 .icon:hover {
   color: #0f2130;
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 900px) {
   #title {
     height: 130vh;
   }
